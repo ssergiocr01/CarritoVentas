@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarritoVentas.DAL\CarritoVentas.DAL.csproj" />
+    <ProjectReference Include="..\CarritoVentas.DTO\CarritoVentas.DTO.csproj" />
+    <ProjectReference Include="..\CarritoVentas.Models\CarritoVentas.Models.csproj" />
+    <ProjectReference Include="..\CarritoVentas.Utility\CarritoVentas.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
